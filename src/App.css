@@ -2,7 +2,17 @@
     font-family: 'Gruppo';
     src: url('./fonts/Gruppo-Regular.ttf');
 }
+@font-face {
+    font-family:'Baloo2' ;
+    src: url('./fonts/Baloo2-Medium.ttf');
+}
 body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.page-container{
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -14,7 +24,6 @@ body{
     position: absolute;
     top: 2vh;
     width: 90%;
-    height: 7vh;
     left: 5%;
 }
 .search-bar{
@@ -22,7 +31,7 @@ body{
     font-family: 'Gruppo';
     font-size: 5vw;
     width: 90%;
-    padding: 15px;
+    padding: 16px;
     background: none;
     border-radius: 25px;
     outline: none;
@@ -31,18 +40,18 @@ body{
 }
 .main-container{
     position: absolute;
-    top: 2vh;
+    top: 9vh;
     width: 90vw;
     left: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 80vh;
+    height: 90vh;
 }
 .location{
     position: relative;
-    top: -8%;
+    top: -23%;
     text-align: center;
     width: 80%;
     padding: 12px;
@@ -53,11 +62,12 @@ body{
     box-shadow: 4px 4px 10px rgb(165, 162, 180), -4px -4px 10px rgb(255, 255, 255);
     font-size: 8vw;
     font-weight: 800;
-    color: rgb(99, 212, 99);
+    color: rgba(128, 128, 128, 0.534);
+    
 }
 .date{
     position: relative;
-    top: -5%;
+    top: -20%;
     text-align: center;
     width: 65%;
     padding: 15px;
@@ -76,10 +86,10 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 1%;
+    top: -15%;
     text-align: center;
-    width: 50vw;
-    height: 30vw;
+    width: 70%;
+    height: 15%;
     padding: 10px;
     font-size: 27vw;
     font-weight: 800;
@@ -87,12 +97,12 @@ body{
     border-radius: 25px;
     outline: none;
     border: none;
-    box-shadow: 4px 4px 10px 1px rgb(165, 162, 180), -4px -4px 10px 1px rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(165, 162, 180), -4px -4px 10px rgb(255, 255, 255);
     color: rgb(255, 123, 123);
 }
 .weather{
     position: relative;
-    top: 7%;
+    top: -10%;
     text-align: center;
     width: 45%;
     padding: 12px;
@@ -110,13 +120,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 90%;
+    top: 65%;
     width: 35vw;
     height: 35vw;
     border-radius: 50%;
     border: none;
     background: none;
-    box-shadow: 4px 4px 8px rgb(165, 162, 180), -4px -4px 8px rgb(255, 255, 255), inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
+    box-shadow: 4px 4px 8px rgb(165, 162, 180), -4px -4px 8px rgb(255, 255, 255), inset 2px 2px 6px rgb(165, 162, 180), inset -2px -2px 6px rgb(255, 255, 255);
 }
 .icon-container{
     display: flex;
@@ -132,6 +142,40 @@ body{
 }
 .icon{
     transform: scale(2);
-    
+}
+.style-button{
+    font-family: 'Gruppo';
+    color: orange;
+    font-weight: 800;
+    position: absolute;
+    font-size: 7vw;
+    left: 17.5%;
+    bottom: 2%;
+    width: 65%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    box-shadow: 4px 4px 10px rgb(165, 162, 180), -4px -4px 10px rgb(255, 255, 255);
+}
 
+                        /*//////////// Glassmorphism /////////////*/
+
+.page-container2{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(
+        to left top, 
+        purple,orange);
+}
+.search-bar2{
+    font-family: 'Baloo2';
+    color: silver;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(138, 2, 138, 0.644);
+    font-size: 5vw;
 }
