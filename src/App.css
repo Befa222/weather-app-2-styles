@@ -62,7 +62,7 @@ body{
     box-shadow: 4px 4px 10px rgb(165, 162, 180), -4px -4px 10px rgb(255, 255, 255);
     font-size: 8vw;
     font-weight: 800;
-    color: rgba(128, 128, 128, 0.534);
+    color: rgb(54, 235, 54);
     
 }
 .date{
@@ -176,6 +176,7 @@ body{
     background: none;
     border: none;
     outline: none;
+    width: 80%;
     border-bottom: 2px solid rgba(138, 2, 138, 0.644);
-    font-size: 5vw;
+    font-size: 6vw;
 }
