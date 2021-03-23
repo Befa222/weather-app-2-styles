@@ -1,23 +1,11 @@
 import React, { useState } from 'react';
 import './App.css'
-import styled from 'styled-components'
-import dayTime from './images/dayTime.gif'
-import night from './images/night.gif'
 
 
 const api = {
   key: "bcd911461b1b688b68f212fe3e37511f",
   base: "https://api.openweathermap.org/data/2.5/"
 }
-
-const BackG = styled.div`
-    background-image: url(${props => props.img});
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-`
 
 function App() {
   const [query, setQuery] = useState('');
@@ -48,20 +36,17 @@ function App() {
     let date = d.getDate();
     let month = months[d.getMonth()];
     let year = d.getFullYear();
-    let hour = d.getHours();
-    let minutes = d.getMinutes();
+    
     
 
-    return `${day} ${date} ${month} ${year} ${hour}.${minutes}`
+    return `${day} ${date} ${month} ${year}`
     
   }
   
   return (
-    
     <div>
-      <main>
-        <div className="search-box">
-          <input 
+      <div className='bar-container'>
+        <input 
             type="text"
             className="search-bar"
             placeholder="City name"
@@ -69,24 +54,27 @@ function App() {
             value={query}
             onKeyPress={search}
           />
-        </div>
+      </div>
         {(typeof weather.main != "undefined") ? (
-        <div>
-          <div className="location-box">
+        <main className='main-container'>
+          
             <div className="location">{weather.name}, {weather.sys.country}</div>
             <div className="date">{dateBuilder(new Date())}</div>
-          </div>
-          <div className="weather-box">
+          
+          
             <div className="temp">
               {Math.round(weather.main.temp)}°c
             </div>
             <div className="weather">{weather.weather[0].main}</div>
+            
+            <div className='circle'>
+            <div className='icon-container'>
+              <img className='icon' src={iconurl} alt='test'/>
             </div>
-            <div className="icon-container" ><img className='icon' src={iconurl} alt='test'/></div>
+            </div>
           
-        </div>
+        </main>
         ) : ('')}
-      </main>
     </div>
   );
 }

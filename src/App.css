@@ -1,44 +1,137 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+    font-family: 'Gruppo';
+    src: url('./fonts/Gruppo-Regular.ttf');
 }
-main{
-    min-height: 100vh;
-    padding: 25px;
-    background: linear-gradient(rgb(255, 98, 50), rgb(0, 4, 255));
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(224, 224, 247);
+    font-family: 'Gruppo';
 }
-.search-box{
-    width:100%;
-    margin: 0 0 75px;
+.bar-container{
+    position: absolute;
+    top: 2vh;
+    width: 90%;
+    height: 7vh;
+    left: 5%;
 }
-.search-box .search-bar{
-    display: block;
-    width: 100%;
+.search-bar{
+    position: absolute;
+    font-family: 'Gruppo';
+    font-size: 5vw;
+    width: 90%;
     padding: 15px;
-    appearance: none;
     background: none;
     border-radius: 25px;
     outline: none;
+    border: none;
+    box-shadow: inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
 }
-.location-box .location{
-    text-align: center;
+.main-container{
+    position: absolute;
+    top: 2vh;
+    width: 90vw;
+    left: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
 }
-.location-box .date{
+.location{
+    position: relative;
+    top: -8%;
     text-align: center;
+    width: 80%;
+    padding: 12px;
+    background: none;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 10px rgb(165, 162, 180), -4px -4px 10px rgb(255, 255, 255);
+    font-size: 8vw;
+    font-weight: 800;
+    color: rgb(99, 212, 99);
 }
-.weather-box .temp{
+.date{
+    position: relative;
+    top: -5%;
     text-align: center;
+    width: 65%;
+    padding: 15px;
+    background: none;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    box-shadow: inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
+    color: rgb(158, 131, 255);
+    font-style: italic;
+    font-size: 5vw;
+    font-weight: 600;
 }
-.weather-box .weather{
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1%;
     text-align: center;
+    width: 50vw;
+    height: 30vw;
+    padding: 10px;
+    font-size: 27vw;
+    font-weight: 800;
+    background: none;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 10px 1px rgb(165, 162, 180), -4px -4px 10px 1px rgb(255, 255, 255);
+    color: rgb(255, 123, 123);
+}
+.weather{
+    position: relative;
+    top: 7%;
+    text-align: center;
+    width: 45%;
+    padding: 12px;
+    background: none;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    box-shadow: inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
+    color: rgb(134, 211, 255);
+    font-size: 7vw;
+    font-weight: bold;
+}
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 90%;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    box-shadow: 4px 4px 8px rgb(165, 162, 180), -4px -4px 8px rgb(255, 255, 255), inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
 }
 .icon-container{
-    width: 50%;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28vw;
+    height: 28vw;
+    background: none;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 8px rgb(165, 162, 180), -4px -4px 8px rgb(255, 255, 255), inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
 }
 .icon{
-    position: absolute;
-    width: 30%;
-    left: 35%;
+    transform: scale(2);
+    
+
 }
