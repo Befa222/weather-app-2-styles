@@ -46,7 +46,7 @@ export const CircleLarge = styled.div`
     background: linear-gradient(
         to right bottom, 
         orange, purple);
-    bottom: 1vh;
+    bottom: 12vh;
     left: 4vw;
 
         @media all and (orientation: landscape){
@@ -204,8 +204,8 @@ export const StyleButton = styled.button`
         
     @media all and (orientation: landscape){
         font-size: 2vw;
-        width: 50%;
-        left: 25%;
+        width: 40%;
+        left: 30%;
         bottom: 1.5vh;
     }
 `
