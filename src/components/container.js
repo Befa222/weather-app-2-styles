@@ -29,18 +29,25 @@ export const CircleMedium = styled.div`
         purple,orange);
     top: 55%;
     right: 3%;
+        
+        @media all and (orientation: landscape){
+            width: 12vw;
+            height: 12vw;
+            top: 50%;
+            right: 15vw;
+        }
 `
 
 export const CircleLarge = styled.div`
     position: absolute;
-    width: 55vw;
-    height: 55vw;
+    width: 45vw;
+    height: 45vw;
     border-radius: 50%;
     background: linear-gradient(
         to right bottom, 
         orange, purple);
-    bottom: -10vh;
-    left: -20vw;
+    bottom: 1vh;
+    left: 4vw;
 
         @media all and (orientation: landscape){
             width: 25vw;

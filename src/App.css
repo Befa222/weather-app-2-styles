@@ -11,7 +11,7 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .page-container{
     margin: 0;
@@ -171,6 +171,8 @@ body{
     border-bottom: 2px solid rgba(138, 2, 138, 0.644);
     font-size: 6vw;
 }
+
+                    /* ///////////// Landscape ////////// */
 
 @media all and (orientation: landscape){
 
