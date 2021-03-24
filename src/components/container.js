@@ -11,6 +11,13 @@ export const CircleSmall = styled.div`
         purple,orange);
     top: 35%;
     left: 7%;
+
+    @media all and (orientation: landscape){
+            top: 1%;
+            width: 9vw;
+            height: 9vw;
+        }
+    
 `
 export const CircleMedium = styled.div`
     position: absolute;
@@ -34,6 +41,13 @@ export const CircleLarge = styled.div`
         orange, purple);
     bottom: -10vh;
     left: -20vw;
+
+        @media all and (orientation: landscape){
+            width: 25vw;
+            height: 25vw;
+            bottom: 1%;
+            left: 1%;
+        }
 `
 export const CircleLarge2 = styled.div`
     position: absolute;
@@ -45,6 +59,11 @@ export const CircleLarge2 = styled.div`
         orange, purple);
     top: 5vh;
     right: 1vw;
+
+    @media all and (orientation: landscape){
+            width: 15vw;
+            height: 15vw;
+        }
 `
 
 export const SearchContainer = styled.div`
@@ -65,6 +84,12 @@ export const SearchContainer = styled.div`
     );
     backdrop-filter: blur(0.5rem);
     z-index: 3;
+
+        @media all and (orientation: landscape){
+            width: 50vw;
+            top: 1vh;
+            left: 25vw;
+        }
 `
 
 export const GlassContainer = styled.div`
@@ -94,10 +119,14 @@ export const CityContainer = styled.div`
     color: silver;
     text-shadow: 2px 2px grey;
     width: 90%;
-    height: 7%;
     text-align: center;
     border-radius: 15px;
     z-index: 4;
+
+    @media all and (orientation: landscape){
+        font-size: 3vw;
+        width: 50%;
+    }
 `
 export const DateContainer = styled.div`
     font-family: 'Baloo2';
@@ -106,6 +135,12 @@ export const DateContainer = styled.div`
     color: silver;
     text-shadow: 2px 2px grey;
     border: none;
+
+    @media all and (orientation: landscape){
+        font-size: 2vw;
+        width: 50%;
+        text-align: center;
+    }
 `
 export const TempContainer = styled.div`
     font-family: 'Baloo2';
@@ -114,6 +149,12 @@ export const TempContainer = styled.div`
     font-size: 23vw;
     font-weight: 800;
     border: none;
+
+    @media all and (orientation: landscape){
+        font-size: 8vw;
+        width: 50%;
+        text-align: center;
+    }
 `
 export const WeatherContainer = styled.div`
     font-family: 'Baloo2';
@@ -121,6 +162,12 @@ export const WeatherContainer = styled.div`
     text-shadow: 2px 2px grey;
     font-size: 10vw;
     border: none;
+
+    @media all and (orientation: landscape){
+        font-size: 2.5vw;
+        width: 50%;
+        text-align: center;
+    }
 `
 export const IconContainer = styled.div`
     border: none;
@@ -147,4 +194,10 @@ export const StyleButton = styled.button`
     );
     backdrop-filter: blur(2rem);
     z-index: 3;
+        
+    @media all and (orientation: landscape){
+        font-size: 2vw;
+        width: 50%;
+        left: 25%;
+    }
 `
