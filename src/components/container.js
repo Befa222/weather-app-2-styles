@@ -119,6 +119,10 @@ export const GlassContainer = styled.div`
     );
     backdrop-filter: blur(0.5rem);
     z-index: 3;
+
+        @media all and (orientation: landscape){
+            height: 65%;
+        }
 `
 export const CityContainer = styled.div`
     font-family: 'Baloo2';
