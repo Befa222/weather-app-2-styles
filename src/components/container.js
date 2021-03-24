@@ -107,7 +107,7 @@ export const GlassContainer = styled.div`
     justify-content: space-around;
     color: black;
     width: 75vw;
-    height: 74vh;
+    height: 60vh;
     left: 12.5vw;
     top: 13vh;
     border-radius: 15px;
