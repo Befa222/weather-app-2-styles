@@ -199,5 +199,6 @@ export const StyleButton = styled.button`
         font-size: 2vw;
         width: 50%;
         left: 25%;
+        bottom: 1.5vh;
     }
 `
