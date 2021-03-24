@@ -6,6 +6,7 @@
     font-family:'Baloo2' ;
     src: url('./fonts/Baloo2-Medium.ttf');
 }
+
 body{
     margin: 0;
     width: 100vw;
@@ -48,6 +49,7 @@ body{
     align-items: center;
     flex-direction: column;
     height: 90vh;
+    border: 1px solid red;
 }
 .location{
     position: relative;
@@ -159,6 +161,7 @@ body{
     box-shadow: 4px 4px 10px rgb(165, 162, 180), -4px -4px 10px rgb(255, 255, 255);
 }
 
+
                         /*//////////// Glassmorphism /////////////*/
 
 .page-container2{
@@ -179,4 +182,18 @@ body{
     width: 80%;
     border-bottom: 2px solid rgba(138, 2, 138, 0.644);
     font-size: 6vw;
+}
+
+@media all and (orientation: landscape){
+
+    .bar-container{
+        top: 1vh;
+        width: 80vw;
+        left: 10vw;
+    }
+    .search-bar{
+        font-size: 2vw;
+        width: 50%;
+        left: 25%;
+    }
 }
