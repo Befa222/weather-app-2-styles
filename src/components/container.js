@@ -107,7 +107,7 @@ export const GlassContainer = styled.div`
     justify-content: space-around;
     color: black;
     width: 75vw;
-    height: 70vh;
+    height: 74vh;
     left: 12.5vw;
     top: 13vh;
     border-radius: 15px;
@@ -121,7 +121,7 @@ export const GlassContainer = styled.div`
     z-index: 3;
 
         @media all and (orientation: landscape){
-            height: 65%;
+            height: 74%;
         }
 `
 export const CityContainer = styled.div`
@@ -192,7 +192,7 @@ export const StyleButton = styled.button`
     bottom: 2vh;
     width: 55vw;
     left: 22.5vw;
-    padding: 5px;
+    padding: 4px;
     font-size: 6vw;
     border: none;
     outline: none;
@@ -210,6 +210,6 @@ export const StyleButton = styled.button`
         font-size: 2vw;
         width: 40%;
         left: 30%;
-        bottom: 1.5vh;
+        bottom: 2vh;
     }
 `
