@@ -19,7 +19,7 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(224, 224, 247);
+    background-color: rgb(53, 53, 54);
     font-family: 'Gruppo';
 }
 .bar-container{
@@ -38,7 +38,7 @@ body{
     border-radius: 25px;
     outline: none;
     border: none;
-    box-shadow: inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
+    box-shadow: inset 4px 4px 10px rgb(29, 29, 29), inset -4px -4px 10px rgb(75, 75, 75);
 }
 .main-container{
     position: absolute;
@@ -59,7 +59,7 @@ body{
     border-radius: 25px;
     outline: none;
     border: none;
-    box-shadow: 4px 4px 10px rgb(165, 162, 180), -4px -4px 10px rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(29, 29, 29), -4px -4px 10px rgb(75, 75, 75);
     font-size: 8vw;
     font-weight: 800;
     color: rgb(54, 235, 54);
@@ -73,7 +73,7 @@ body{
     border-radius: 25px;
     outline: none;
     border: none;
-    box-shadow: inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
+    box-shadow: inset 4px 4px 10px rgb(29, 29, 29), inset -4px -4px 10px rgb(75, 75, 75);
     color: rgb(158, 131, 255);
     font-style: italic;
     font-size: 5vw;
@@ -93,7 +93,7 @@ body{
     border-radius: 25px;
     outline: none;
     border: none;
-    box-shadow: 4px 4px 10px rgb(165, 162, 180), -4px -4px 10px rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(29, 29, 29), -4px -4px 10px rgb(75, 75, 75);
     color: rgb(255, 123, 123);
 }
 .weather{
@@ -105,7 +105,7 @@ body{
     border-radius: 25px;
     outline: none;
     border: none;
-    box-shadow: inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
+    box-shadow: inset 4px 4px 10px rgb(29, 29, 29), inset -4px -4px 10px rgb(75, 75, 75);
     color: rgb(134, 211, 255);
     font-size: 7vw;
     font-weight: bold;
@@ -119,7 +119,7 @@ body{
     border-radius: 50%;
     border: none;
     background: none;
-    box-shadow: 4px 4px 8px rgb(165, 162, 180), -4px -4px 8px rgb(255, 255, 255), inset 2px 2px 6px rgb(165, 162, 180), inset -2px -2px 6px rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(29, 29, 29), -4px -4px 10px rgb(75, 75, 75), inset 4px 4px 10px rgb(29, 29, 29), inset -4px -4px 10px rgb(75, 75, 75);
 }
 .icon-container{
     display: flex;
@@ -131,7 +131,7 @@ body{
     border-radius: 50%;
     outline: none;
     border: none;
-    box-shadow: 4px 4px 8px rgb(165, 162, 180), -4px -4px 8px rgb(255, 255, 255), inset 3px 3px 6px rgb(165, 162, 180), inset -3px -3px 6px rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(29, 29, 29), -4px -4px 10px rgb(75, 75, 75), inset 4px 4px 10px rgb(29, 29, 29), inset -4px -4px 10px rgb(75, 75, 75);
 }
 .icon{
     transform: scale(1.5);
@@ -147,7 +147,7 @@ body{
     border-radius: 10px;
     border: none;
     background: none;
-    box-shadow: 4px 4px 10px rgb(165, 162, 180), -4px -4px 10px rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(29, 29, 29), -4px -4px 10px rgb(75, 75, 75);
 }
 
 
