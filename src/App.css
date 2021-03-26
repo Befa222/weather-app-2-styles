@@ -12,7 +12,7 @@ body{
     height: 100vh;
     overflow-x: hidden;
 }
-@media only screen and (max-height: 1366px){
+@media all and (display-mode: browser) and (max-height: 1366px){
 
 .page-container{
     margin: 0;
