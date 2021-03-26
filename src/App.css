@@ -39,6 +39,7 @@ body{
     outline: none;
     border: none;
     box-shadow: inset 4px 4px 10px rgb(29, 29, 29), inset -4px -4px 10px rgb(75, 75, 75);
+    color: white;
 }
 .main-container{
     position: absolute;
